@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Previsão para os Próximos 5 Dias</title>
+    <link rel="stylesheet" href="{% static 'meteo/estilos.css' %}">
+</head>
+<body class = "black">
+    {% for day in weather_data %}
+    <div class="weather-card">
+        <p>Data: {{ day.forecastDate }}</p>
+        <p>Temperatura Mínima: {{ day.tMin }}°C</p>
+        <p>Temperatura Máxima: {{ day.tMax }}°C</p>
+        <p>Descrição do Tempo: {{ day.weather_desc }}</p>
+        <img src="{{ day.icon_url }}" alt="Ícone do tempo">
+    </div>
+    {% endfor %}
+</body>
+</html>

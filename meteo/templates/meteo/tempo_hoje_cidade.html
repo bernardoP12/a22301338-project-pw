@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Previsão do Tempo</title>
+</head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'meteo/estilos.css' %}">
+<body class = "black">
+    <div class="weather-card">
+            <p><strong>Data:</strong> {{ date }}</p>
+            <p><strong>Temperatura Mínima:</strong> {{ min_temp }}°C</p>
+            <p><strong>Temperatura Máxima:</strong> {{ max_temp }}°C</p>
+            <p><strong>Descrição do Tempo:</strong> {{ weather_desc }}</p>
+            <img src="{{ icon_url }}" alt="Ícone do tempo">
+    </div>
+</body>
+</html>

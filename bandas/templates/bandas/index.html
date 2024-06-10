@@ -1,0 +1,76 @@
+{% extends 'bandas/layout.html' %}
+{% block content %}
+
+    <div class="container">
+        <div class="rock">
+            <h1>Rock</h1>
+    {% for banda in bandas_rock %}
+
+
+        <p><a href = "{% url 'bandas:banda' banda.id %}"> {{banda.nome}}</a></p>
+
+        {% if banda.foto %}
+            <p id = "foto"> <img src = '{{banda.foto.url}}' style="max-width: 40%;"></p>
+        {% else %}
+            <p>Nenhuma foto disponível</p>
+        {% endif %}
+
+        {% if user.is_authenticated and perms.bandas.change_banda %}
+            <a href ="{% url 'bandas:editarBanda' banda.id %}"><button class="button-edit">Editar</button></a>
+        {% endif %}
+
+        {% if user.is_authenticated and perms.bandas.create_banda %}
+        <a href="{% url 'bandas:novaBanda' %}"><button class = "button-edit">Nova Banda</button></a>
+        {% endif %}
+
+    {% endfor %}
+        </div><!--rock-->
+
+        <div class="metal">
+            <h1>Metal</h1>
+    {% for banda in bandas_metal %}
+
+        <p><a href = "{% url 'bandas:banda' banda.id %}"> {{banda.nome}}</a></p>
+
+        {% if banda.foto %}
+            <p id = "foto"> <img src = '{{banda.foto.url}}' style="max-width: 40%;"></p>
+        {% else %}
+            <p>Nenhuma foto disponível</p>
+        {% endif %}
+
+        {% if user.is_authenticated and perms.bandas.change_banda %}
+            <a href ="{% url 'bandas:editarBanda' banda.id %}"><button class="button-edit">Editar</button></a>
+        {% endif %}
+
+        {% if user.is_authenticated and perms.bandas.create_banda %}
+        <a href="{% url 'bandas:novaBanda' %}"><button class = "button-edit">Nova Banda</button></a>
+        {% endif %}
+
+    {% endfor %}
+    </div><!--metal-->
+
+    <div class="grunge">
+        <h1>Grunge</h1>
+    {% for banda in bandas_grunge %}
+
+        <p><a href = "{% url 'bandas:banda' banda.id %}"> {{banda.nome}}</a></p>
+
+        {% if banda.foto %}
+            <p id = "foto"> <img src = '{{banda.foto.url}}' style="max-width: 40%;"></p>
+        {% else %}
+            <p>Nenhuma foto disponível</p>
+        {% endif %}
+
+        {% if user.is_authenticated and perms.bandas.change_banda %}
+            <a href ="{% url 'bandas:editarBanda' banda.id %}"><button class="button-edit">Editar</button></a>
+        {% endif %}
+
+        {% if user.is_authenticated and perms.bandas.create_banda %}
+        <a href="{% url 'bandas:novaBanda' %}"><button class = "button-edit">Nova Banda</button></a>
+        {% endif %}
+
+    {% endfor %}
+    </div><!--grunge-->
+
+    </div> <!--container-->
+{% endblock %}

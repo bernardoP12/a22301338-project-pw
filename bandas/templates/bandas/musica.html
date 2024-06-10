@@ -1,0 +1,14 @@
+{% extends 'bandas/layout.html' %}
+
+{% block content %}
+    <header>
+        <a href = "{% url 'bandas:index' %}"><button class="button-menu">Menu</button></a>
+    </header>
+
+<body class = "musica"></body>
+    <h2>{{ musica.titulo }}</h2>
+
+    <p> <big>Duração</big>: {{ musica.duracao }}</p>
+    <p> <big>Spotify_link</big>: {{musica.spotify_link}}</p>
+
+{% endblock %}

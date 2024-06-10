@@ -1,0 +1,14 @@
+body{
+    background : url('https://e0.pxfuel.com/wallpapers/279/812/desktop-wallpaper-grunge-vintage-blank-old-newspaper-background.jpg');
+    color:black;
+    font-size:30px;
+}
+.button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+.a {
+    color: white;
+}

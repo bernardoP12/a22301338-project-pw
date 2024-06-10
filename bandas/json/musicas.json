@@ -1,0 +1,235 @@
+[
+    {
+        "titulo": "Nevermind",
+        "ano_lancamento": 1991,
+        "banda": "Nirvana",
+        "musicas": [
+            {"titulo": "Smells Like Teen Spirit", "duracao": "5:01", "spotify_link": "https://open.spotify.com/track/5ghIJDpPoe3CfHMGu71E6T"},
+            {"titulo": "In Bloom", "duracao": "4:15", "spotify_link": "https://open.spotify.com/track/7j4lLt9BpX64W3EnI3Jb2e"},
+            {"titulo": "Come as You Are", "duracao": "3:39", "spotify_link": "https://open.spotify.com/track/3g6Jn3uFn6U0ESn2kdallh"},
+            {"titulo": "Breed", "duracao": "3:03", "spotify_link": "https://open.spotify.com/track/6d8A5sAx9TfdeseDvfWNHd"},
+            {"titulo": "Lithium", "duracao": "4:17", "spotify_link": "https://open.spotify.com/track/3o3GhNv5A0zxAds3UjV1f2"},
+            {"titulo": "Polly", "duracao": "2:56", "spotify_link": "https://open.spotify.com/track/4Y6tV5aHJeJfAzOiB4KlNm"}
+        ]
+    },
+    {
+        "titulo": "In Utero",
+        "ano_lancamento": 1993,
+        "banda": "Nirvana",
+        "musicas": [
+            {"titulo": "Serve the Servants", "duracao": "3:36", "spotify_link": "https://open.spotify.com/track/1yplwRnEBSTKhwqK0ov3i4"},
+            {"titulo": "Heart-Shaped Box", "duracao": "4:39", "spotify_link": "https://open.spotify.com/track/2o5jDhtHVPhrJdv3cEQ99Z"},
+            {"titulo": "Rape Me", "duracao": "2:49", "spotify_link": "https://open.spotify.com/track/4vA4XTF6l1C72GWUptHxfH"},
+            {"titulo": "Pennyroyal Tea", "duracao": "3:37", "spotify_link": "https://open.spotify.com/track/6NcmN0BQD3qdwMUCVQYwxg"},
+            {"titulo": "Dumb", "duracao": "2:29", "spotify_link": "https://open.spotify.com/track/6AkEC3qyYg0CQ7OCp4Rh38"},
+            {"titulo": "All Apologies", "duracao": "3:51", "spotify_link": "https://open.spotify.com/track/2ce5s6M6OB1P74zb7P6KuB"}
+        ]
+    },
+    {
+        "titulo": "OK Computer",
+        "ano_lancamento": 1997,
+        "banda": "Radiohead",
+        "musicas": [
+            {"titulo": "Airbag", "duracao": "4:44", "spotify_link": "https://open.spotify.com/track/3OsUjkcvxe2mQj4EjgQsWJ"},
+            {"titulo": "Paranoid Android", "duracao": "6:23", "spotify_link": "https://open.spotify.com/track/7eyQXxuf2nGj9d2367Gi5f"},
+            {"titulo": "Subterranean Homesick Alien", "duracao": "4:27", "spotify_link": "https://open.spotify.com/track/7Gw2XgKUVKv7vuY1WI5HzN"},
+            {"titulo": "Exit Music (For a Film)", "duracao": "4:24", "spotify_link": "https://open.spotify.com/track/6fUqXvw9sFf8WynQlYzKcG"},
+            {"titulo": "Let Down", "duracao": "4:59", "spotify_link": "https://open.spotify.com/track/0lYBSQXN6rCTvUZvg9S0lU"},
+            {"titulo": "Karma Police", "duracao": "4:21", "spotify_link": "https://open.spotify.com/track/3SVAN3BRByDmHOhKyIDxfC"}
+        ]
+    },
+    {
+        "titulo": "Kid A",
+        "ano_lancamento": 2000,
+        "banda": "Radiohead",
+        "musicas": [
+            {"titulo": "Everything in Its Right Place", "duracao": "4:11", "spotify_link": "https://open.spotify.com/track/0NTHCf99wJPeV1fAScizYz"},
+            {"titulo": "Kid A", "duracao": "4:44", "spotify_link": "https://open.spotify.com/track/7Jhm0OVVp3m2q8TM5fNtC7"},
+            {"titulo": "The National Anthem", "duracao": "5:51", "spotify_link": "https://open.spotify.com/track/4mXbBlf27HgBQ8eLLhPS1D"},
+            {"titulo": "How to Disappear Completely", "duracao": "5:56", "spotify_link": "https://open.spotify.com/track/4T2SmTf3LvWLaokhLFDWDl"},
+            {"titulo": "Optimistic", "duracao": "5:15", "spotify_link": "https://open.spotify.com/track/6SgqiyZKWNrpZz9Akss3pX"},
+            {"titulo": "Idioteque", "duracao": "5:09", "spotify_link": "https://open.spotify.com/track/7yCQ89p0mKVlIuQKqH8vEu"}
+        ]
+    },
+    {
+        "titulo": "The Dark Side of the Moon",
+        "ano_lancamento": 1973,
+        "banda": "Pink Floyd",
+        "musicas": [
+            {"titulo": "Speak to Me", "duracao": "1:30", "spotify_link": "https://open.spotify.com/track/2ctvdKmETyOzPb2GiJJT53"},
+            {"titulo": "Breathe", "duracao": "2:43", "spotify_link": "https://open.spotify.com/track/6Jr2DJmsYDwGq2mRcrZ6qs"},
+            {"titulo": "On the Run", "duracao": "3:30", "spotify_link": "https://open.spotify.com/track/0reP64U1jvdpNDnDgKflvW"},
+            {"titulo": "Time", "duracao": "6:53", "spotify_link": "https://open.spotify.com/track/5n6wenpu8vKkpksD1gXAwZ"},
+            {"titulo": "The Great Gig in the Sky", "duracao": "4:47", "spotify_link": "https://open.spotify.com/track/1eRNlx1dO6vhPU8cVXnDtz"},
+            {"titulo": "Money", "duracao": "6:32", "spotify_link": "https://open.spotify.com/track/7JNHGgUqFnm3aSmYsNdv8C"}
+        ]
+    },
+    {
+        "titulo": "Wish You Were Here",
+        "ano_lancamento": 1975,
+        "banda": "Pink Floyd",
+        "musicas": [
+            {"titulo": "Shine On You Crazy Diamond (Parts I–V)", "duracao": "13:30", "spotify_link": "https://open.spotify.com/track/7XthYU0GJxS84wHPU2UFQR"},
+            {"titulo": "Welcome to the Machine", "duracao": "7:31", "spotify_link": "https://open.spotify.com/track/2vtGoxCGB7eHg2UHw7ALLO"},
+            {"titulo": "Have a Cigar", "duracao": "5:08", "spotify_link": "https://open.spotify.com/track/5m6wn7I8Sv3M9P1moMpiuw"},
+            {"titulo": "Wish You Were Here", "duracao": "5:34", "spotify_link": "https://open.spotify.com/track/6mFkJmJqdDVQ1REhVfGgd1"},
+            {"titulo": "Shine On You Crazy Diamond (Parts VI–IX)", "duracao": "12:29", "spotify_link": "https://open.spotify.com/track/5G8DJvCrOJgM5CdUwtvYO7"}
+        ]
+    },
+    {
+        "titulo": "Toxicity",
+        "ano_lancamento": 2001,
+        "banda": "System of a Down",
+        "musicas": [
+            {"titulo": "Prison Song", "duracao": "3:21", "spotify_link": "https://open.spotify.com/track/0ktvu2vhDDAebfd3R4URfP"},
+            {"titulo": "Needles", "duracao": "3:13", "spotify_link": "https://open.spotify.com/track/2AkeSjkflh3aKLYzfAAE5h"},
+            {"titulo": "Deer Dance", "duracao": "2:55", "spotify_link": "https://open.spotify.com/track/3j9N1x9EPr5r6CTuS51vwG"},
+            {"titulo": "Jet Pilot", "duracao": "2:06", "spotify_link": "https://open.spotify.com/track/5MFoy1YphFsQL3xP6v6A3F"},
+            {"titulo": "Chop Suey!", "duracao": "3:30", "spotify_link": "https://open.spotify.com/track/0nD2w8b6Lpq1O4Obr2X1UH"},
+            {"titulo": "Forest", "duracao": "4:00", "spotify_link": "https://open.spotify.com/track/2cGxRwrMyEAp8dEbuZaVvI"}
+        ]
+    },
+    {
+        "titulo": "Mezmerize",
+        "ano_lancamento": 2005,
+        "banda": "System of a Down",
+        "musicas": [
+            {"titulo": "Soldier Side - Intro", "duracao": "1:03", "spotify_link": "https://open.spotify.com/track/2kAdbhrcVZI7xa2Y9bae9c"},
+            {"titulo": "B.Y.O.B.", "duracao": "4:15", "spotify_link": "https://open.spotify.com/track/1xJPE18Svq2XtwIzZsLCdg"},
+            {"titulo": "Revenga", "duracao": "3:48", "spotify_link": "https://open.spotify.com/track/1pOY97mQvOYhgthBodcJDb"},
+            {"titulo": "Cigaro", "duracao": "2:12", "spotify_link": "https://open.spotify.com/track/2Q7pAZ5Bv8t81bo5oo1wG8"},
+            {"titulo": "Radio/Video", "duracao": "4:09", "spotify_link": "https://open.spotify.com/track/1i2xdy2wTGChTflA5c9RVu"},
+            {"titulo": "This Cocaine Makes Me Feel Like I'm on This Song", "duracao": "2:08", "spotify_link": "https://open.spotify.com/track/1d3KqOQCV1t0GZLKF9ixRm"}
+        ]
+    },
+    {
+        "titulo": "Californication",
+        "ano_lancamento": 1999,
+        "banda": "Red Hot Chili Peppers",
+        "musicas": [
+            {"titulo": "Around the World", "duracao": "3:58", "spotify_link": "https://open.spotify.com/track/1anZY8I8H0P14jJdaDRgfN"},
+            {"titulo": "Parallel Universe", "duracao": "4:29", "spotify_link": "https://open.spotify.com/track/3ygYQxY5F7FBkxnaLbwum2"},
+            {"titulo": "Scar Tissue", "duracao": "3:37", "spotify_link": "https://open.spotify.com/track/4vp2J1l5RD4gMZwGFLfRAu"},
+            {"titulo": "Otherside", "duracao": "4:15", "spotify_link": "https://open.spotify.com/track/0f0f2eVMmRZP7yVlNNwhVt"},
+            {"titulo": "Californication", "duracao": "5:21", "spotify_link": "https://open.spotify.com/track/5snOyuDEG0v9nI5wJ1L18n"},
+            {"titulo": "Easily", "duracao": "3:00", "spotify_link": "https://open.spotify.com/track/7Fw4iHjyW9dYjApdXsTL7T"}
+        ]
+    },
+    {
+        "titulo": "Stadium Arcadium",
+        "ano_lancamento": 2006,
+        "banda": "Red Hot Chili Peppers",
+        "musicas": [
+            {"titulo": "Dani California", "duracao": "4:42", "spotify_link": "https://open.spotify.com/track/5a1iz510sv2S8j2vb3Wgxp"},
+            {"titulo": "Snow (Hey Oh)", "duracao": "5:34", "spotify_link": "https://open.spotify.com/track/0ZaT9Sd9TIgv8xFsrxWtAA"},
+            {"titulo": "Charlie", "duracao": "4:37", "spotify_link": "https://open.spotify.com/track/5xLJuH8Bf2q1Ghg02u8G8D"},
+            {"titulo": "Stadium Arcadium", "duracao": "5:15", "spotify_link": "https://open.spotify.com/track/5MxNLUsfh7uzROypsoO5qe"},
+            {"titulo": "Hump de Bump", "duracao": "3:33", "spotify_link": "https://open.spotify.com/track/2zwAzyqgE2O5t9gDaxGak8"},
+            {"titulo": "She's Only 18", "duracao": "3:25", "spotify_link": "https://open.spotify.com/track/4p2dN0OGDswCgFMx2DxrgB"}
+        ]
+    },
+    {
+        "titulo": "Americana",
+        "ano_lancamento": 1998,
+        "banda": "The Offspring",
+        "musicas": [
+            {"titulo": "Welcome", "duracao": "0:09", "spotify_link": "https://open.spotify.com/track/2vS64YfISZfXEU9hLc6CKT"},
+            {"titulo": "Have You Ever", "duracao": "3:56", "spotify_link": "https://open.spotify.com/track/3X9OmJpBQ6K2GGLFNSKpbR"},
+            {"titulo": "Staring at the Sun", "duracao": "2:13", "spotify_link": "https://open.spotify.com/track/0MviV7K57XXb67BrJKZApk"},
+            {"titulo": "Pretty Fly (For a White Guy)", "duracao": "3:08", "spotify_link": "https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw"},
+            {"titulo": "The Kids Aren't Alright", "duracao": "3:00", "spotify_link": "https://open.spotify.com/track/5ZlzXrEJl6p2mpoK9ZViSf"},
+            {"titulo": "Why Don't You Get a Job?", "duracao": "2:52", "spotify_link": "https://open.spotify.com/track/3CJ7zEukWYktXbSCDuTLDt"}
+        ]
+    },
+    {
+        "titulo": "Smash",
+        "ano_lancamento": 1994,
+        "banda": "The Offspring",
+        "musicas": [
+            {"titulo": "Time to Relax", "duracao": "0:25", "spotify_link": "https://open.spotify.com/track/6UY8YXqlEjoYVTc28pX2pa"},
+            {"titulo": "Nitro (Youth Energy)", "duracao": "2:28", "spotify_link": "https://open.spotify.com/track/1Q59EtoIRm0ckKWQT3dcW1"},
+            {"titulo": "Bad Habit", "duracao": "3:43", "spotify_link": "https://open.spotify.com/track/0O9wTkmNUZK0DZK4qTYn4V"},
+            {"titulo": "Gotta Get Away", "duracao": "3:52", "spotify_link": "https://open.spotify.com/track/3NQTfyiNbkUvNWspn2vvHS"},
+            {"titulo": "Genocide", "duracao": "3:33", "spotify_link": "https://open.spotify.com/track/5MpaeAe91jNLtTCgkkJyKz"},
+            {"titulo": "Something to Believe In", "duracao": "3:17", "spotify_link": "https://open.spotify.com/track/6DcwM9fGhHwWyPh8AgA06e"}
+        ]
+    },
+    {
+        "titulo": "Doolittle",
+        "ano_lancamento": 1989,
+        "banda": "Pixies",
+        "musicas": [
+            {"titulo": "Debaser", "duracao": "2:52", "spotify_link": "https://open.spotify.com/track/7dUHYg3vsLnjE3RGihoxDu"},
+            {"titulo": "Tame", "duracao": "1:55", "spotify_link": "https://open.spotify.com/track/5MLTxGXPKx5dH7AeWcfSf2"},
+            {"titulo": "Wave of Mutilation", "duracao": "2:04", "spotify_link": "https://open.spotify.com/track/5VQ2XT0ZcUhpZ2FZwT3JH6"},
+            {"titulo": "I Bleed", "duracao": "2:34", "spotify_link": "https://open.spotify.com/track/0s9eHBYckvmk5OGJFLh3kM"},
+            {"titulo": "Here Comes Your Man", "duracao": "3:21", "spotify_link": "https://open.spotify.com/track/4xX8CeLcnQKkwGb6g5d0Pb"},
+            {"titulo": "Where Is My Mind?", "duracao": "3:51", "spotify_link": "https://open.spotify.com/track/7MRyJPksH3G2cXHN8UKYzP"}
+        ]
+    },
+    {
+        "titulo": "Surfer Rosa",
+        "ano_lancamento": 1988,
+        "banda": "Pixies",
+        "musicas": [
+            {"titulo": "Bone Machine", "duracao": "3:02", "spotify_link": "https://open.spotify.com/track/1qMrGJaWwunBJygd3UBU6S"},
+            {"titulo": "Break My Body", "duracao": "2:05", "spotify_link": "https://open.spotify.com/track/1N5LkbhI1nRV6d7vmCsqtc"},
+            {"titulo": "Gigantic", "duracao": "3:54", "spotify_link": "https://open.spotify.com/track/5iyjZ5Cn8nqWrJFg1BynYt"},
+            {"titulo": "River Euphrates", "duracao": "2:33", "spotify_link": "https://open.spotify.com/track/6WNLuBztcTQ6z9zX8jdrWq"},
+            {"titulo": "Where Is My Mind?", "duracao": "3:51", "spotify_link": "https://open.spotify.com/track/7MRyJPksH3G2cXHN8UKYzP"},
+            {"titulo": "Cactus", "duracao": "2:16", "spotify_link": "https://open.spotify.com/track/3Xe26vD3a9ySm6VqpbVd2z"}
+        ]
+    },
+    {
+        "titulo": "Dirt",
+        "ano_lancamento": 1992,
+        "banda": "Alice in Chains",
+        "musicas": [
+            {"titulo": "Them Bones", "duracao": "2:30", "spotify_link": "https://open.spotify.com/track/0U2ynhpoBw9OFO3k3MJu7t"},
+            {"titulo": "Dam That River", "duracao": "3:09", "spotify_link": "https://open.spotify.com/track/3nIXXKnxzAyvYYhM3Hi8yj"},
+            {"titulo": "Rain When I Die", "duracao": "6:01", "spotify_link": "https://open.spotify.com/track/1M1oibAZTwkR4pbmEGKl25"},
+            {"titulo": "Down in a Hole", "duracao": "5:38", "spotify_link": "https://open.spotify.com/track/4uLU6hMCjMI75M1A2tKUQC"},
+            {"titulo": "Sickman", "duracao": "5:29", "spotify_link": "https://open.spotify.com/track/5As4nK4ZorJFsEPz9E6FFl"},
+            {"titulo": "Rooster", "duracao": "6:15", "spotify_link": "https://open.spotify.com/track/6KcJjPw8abCSOERtwnbUIJ"}
+        ]
+    },
+    {
+        "titulo": "Jar of Flies",
+        "ano_lancamento": 1994,
+        "banda": "Alice in Chains",
+        "musicas": [
+            {"titulo": "Rotten Apple", "duracao": "6:58", "spotify_link": "https://open.spotify.com/track/6w1lXkvk0JWwZbIl4Y7BlW"},
+            {"titulo": "Nutshell", "duracao": "4:19", "spotify_link": "https://open.spotify.com/track/45vzSLjgEs1x8xA6QIthUh"},
+            {"titulo": "I Stay Away", "duracao": "4:14", "spotify_link": "https://open.spotify.com/track/2CgGy2P3HmMQl2zyww0hAn"},
+            {"titulo": "No Excuses", "duracao": "4:15", "spotify_link": "https://open.spotify.com/track/3zJw3rugfpVrmBeDDnUYzy"},
+            {"titulo": "Whale & Wasp", "duracao": "2:37", "spotify_link": "https://open.spotify.com/track/6XQcn5DCz4dC0Goueo7isM"},
+            {"titulo": "Don't Follow", "duracao": "4:21", "spotify_link": "https://open.spotify.com/track/4QrVbLcp1o9MmzIY6rnbXO"}
+        ]
+    },
+    {
+        "titulo": "White Pony",
+        "ano_lancamento": 2000,
+        "banda": "Deftones",
+        "musicas": [
+            {"titulo": "Feiticeira", "duracao": "3:09", "spotify_link": "https://open.spotify.com/track/4G5ZZ5oZj0RddNQqF5hThK"},
+            {"titulo": "Digital Bath", "duracao": "4:15", "spotify_link": "https://open.spotify.com/track/1Vv9JG5KEG6BchVqf7F9aG"},
+            {"titulo": "Elite", "duracao": "4:01", "spotify_link": "https://open.spotify.com/track/0PEQtGAC0Mm33kzWxv1CUk"},
+            {"titulo": "Rx Queen", "duracao": "4:27", "spotify_link": "https://open.spotify.com/track/1TFIihtWMG1V3SxRItrtFa"},
+            {"titulo": "Street Carp", "duracao": "2:41", "spotify_link": "https://open.spotify.com/track/4W1mJGaiuxpqrkMPoEci98"},
+            {"titulo": "Knife Prty", "duracao": "4:49", "spotify_link": "https://open.spotify.com/track/40MkNawApMg39zVd9nSTTV"}
+        ]
+    },
+    {
+        "titulo": "Around the Fur",
+        "ano_lancamento": 1997,
+        "banda": "Deftones",
+        "musicas": [
+            {"titulo": "My Own Summer (Shove It)", "duracao": "3:35", "spotify_link": "https://open.spotify.com/track/6TZmdXqjK8jPYcw8k6NX4P"},
+            {"titulo": "Lhabia", "duracao": "4:11", "spotify_link": "https://open.spotify.com/track/4sM6fogon5Ib3nS5WwNO4H"},
+            {"titulo": "Mascara", "duracao": "3:44", "spotify_link": "https://open.spotify.com/track/5JNEHxHh6Jzgwncm1Oasbm"},
+            {"titulo": "Around the Fur", "duracao": "3:31", "spotify_link": "https://open.spotify.com/track/4JSPmiInx2LTPVJjqbkk93"},
+            {"titulo": "Rickets", "duracao": "2:44", "spotify_link": "https://open.spotify.com/track/2e9lNAlSkgCJPyV7wQyRYa"},
+            {"titulo": "Be Quiet and Drive (Far Away)", "duracao": "5:08", "spotify_link": "https://open.spotify.com/track/17pxwlR1R2OoBbW3pvqD1f"}
+        ]
+    }
+]

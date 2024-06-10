@@ -1,0 +1,177 @@
+div.container {
+    display: grid;
+    grid-template-areas:
+        "rock metal grunge"
+        "rock metal grunge"
+        "rock metal grunge";
+    gap: 30px;
+}
+
+.rock {
+    grid-area: rock;
+    text-align:center;
+    font-size:40px;
+}
+.metal {
+    grid-area: metal;
+    text-align:center;
+    font-size:40px;
+}
+.grunge {
+    grid-area:grunge;
+    text-align:center;
+    font-size:40px;
+}
+
+body {
+  background-color: yellow;
+  margin-left: 20px;
+  text-align:center;
+}
+.helptext {
+  font-size: 0.8em;
+  color: #999;
+}
+/* Estilo inicial do ícone do botão de cancelamento */
+.button-cancel:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f00d"; /* Ícone de cruz */
+  padding-right: 8px;
+}
+.button-cancel:hover::before {
+  content: "\f057"; /* Ícone diferente de cruz circular */
+}
+
+/* Estilo do botão de cancelamento */
+.button-cancel {
+  font-size: 14px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+/* Estilo do botão de cancelamento quando hover */
+.button-cancel:hover {
+  background-color: #c82333;
+}
+.button-menu:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f015";
+  padding-right: 8px;
+}
+
+/* Mudança do ícone ao passar o rato no botão de menu */
+.button-menu:hover::before {
+  content: "\f061";
+}
+
+/* Estilo do botão de menu */
+.button-menu {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Estilo do botão de menu quando hover */
+.button-menu:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo inicial do ícone do botão de editar */
+.button-edit:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: "\f044";
+  padding-right: 8px;
+}
+
+/* Mudança do ícone ao passar o rato no botão de editar */
+.button-edit:hover::before {
+  content: "\f5fb";
+}
+
+/* Estilo do botão de editar */
+.button-edit {
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid #1c7430;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Estilo do botão de editar quando hover */
+.button-edit:hover {
+  background-color: #218838;
+  border-color: #196f3d;
+}
+
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+a {
+  color: black;
+  font-size: 22px;
+}
+.banda-nome {
+  color: red;
+}
+.banda-descricao {
+  font-size: 1.2em;
+}
+.musica-detalhes {
+  background-color: #f0f0f0;
+}
+.musica-titulo::after {
+  content: "🎵";
+}
+
+
+/* Atributos */
+input[type="text"] {
+  border: 1px solid #ccc;
+}
+a[target="_blank"] {
+  color: black;
+  font-size: 16px;
+}
+img[alt] {
+  border: 2px dotted #444;
+}
+p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 2em;
+  color: red;
+}
+p {
+   font-size:20px;
+   color:black;
+}
+
+header nav a {
+  color: white;
+}
+h2, h3 {
+  color: red;
+  font-size:40px;
+}
+h1{
+    font-size:60px;
+    margin-top:50px;
+}

@@ -1,0 +1,87 @@
+{% load static %}
+<head>
+
+    <title>Disciplinas</title>
+    <link rel="stylesheet" href="{% static 'cursos/estilos.css' %}">
+</head>
+
+    <style>
+            body {
+                background: url('https://thetangerinebowl.com/wp-content/uploads/2014/08/light-wood-BK1.png');
+                color:black;
+            }
+        </style>
+
+<h1><header>Disciplinas</header></h1>
+    <header>
+        <a href = "{% url 'cursos:index' %}"><button class="button-menu">Menu</button></a>
+    </header>
+
+{% block content %}
+    <div class = "container">
+
+    <div class = "1ano">
+    <h3> 1º Ano </h3>
+    <p>1º Semestre</p>
+    {% for disciplina in ano1 %}
+    {% if disciplina in semestre1 %}
+    <li>
+        <a href="{% url 'cursos:disciplina' disciplina.id %}">{{disciplina.nome}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+    <p>2º Semestre</p>
+    {% for disciplina in ano1 %}
+    {% if disciplina in semestre2 %}
+    <li>
+        <a href="{% url 'cursos:disciplina' disciplina.id %}">{{disciplina.nome}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+    </div>
+
+    <div class = "2ano">
+    <h3> 2º Ano </h3>
+    <p>1º Semestre</p>
+    {% for disciplina in ano2 %}
+    {% if disciplina in semestre1 %}
+    <li>
+        <a href="{% url 'cursos:disciplina' disciplina.id %}">{{disciplina.nome}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+    <p>2º Semestre</p>
+    {% for disciplina in ano2 %}
+    {% if disciplina in semestre2 %}
+    <li>
+        <a href="{% url 'cursos:disciplina' disciplina.id %}">{{disciplina.nome}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    </div>
+
+    <div class = "3ano">
+    <h3> 3º Ano </h3>
+    <p>1º Semestre</p>
+    {% for disciplina in ano3 %}
+    {% if disciplina in semestre1 %}
+    <li>
+        <a href="{% url 'cursos:disciplina' disciplina.id %}">{{disciplina.nome}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+    <p>2º Semestre</p>
+    {% for disciplina in ano3 %}
+    {% if disciplina in semestre2 %}
+    <li>
+        <a href="{% url 'cursos:disciplina' disciplina.id %}">{{disciplina.nome}}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    </div>
+    </div>
+{% endblock %}

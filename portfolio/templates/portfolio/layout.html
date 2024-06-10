@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'portfolio/estilos.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<script src="https://kit.fontawesome.com/7a414a4d6e.js" crossorigin="anonymous"></script>
+<body class="layout">
+
+    <div class="dropdown">
+        <button>Check out more</button>
+        <div class="content">
+            <a href="{% url 'portfolio:about_me' %}"><p>Sobre</p></a>
+            <a href="{% url 'portfolio:about_website' %}"><p>Website</p></a>
+            <a href="{% url 'artigos:index' %}"><p>Artigos</p></a>
+            <a href="{% url 'bandas:index' %}"><p>Bandas</p></a>
+            <a href="{% url 'cursos:index' %}"><p>Cursos</p></a>
+            <a href="{% url 'meteo:cidades' %}"><p>Meteorologia</p></a>
+
+        </div>
+    </div>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+</body>
+</html>

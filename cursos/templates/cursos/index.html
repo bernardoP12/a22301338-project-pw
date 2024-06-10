@@ -1,0 +1,15 @@
+{% extends 'cursos/layout.html' %}
+
+{% block content %}
+<h2>Curso de Engenharia Informática</h2>
+<ul>
+    {% for curso in cursos %}
+        <li>
+            <h3><a href="{% url 'cursos:disciplinas' curso.id %}">LEI</a></h3>
+            <p>{{ curso.apresentacao }}</p>
+            <p>{{ curso.objetivos }}</p>
+            <p>{{ curso.competencias }}</p>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}

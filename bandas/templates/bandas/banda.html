@@ -1,0 +1,35 @@
+{% extends 'bandas/layout.html' %}
+{% block content %}
+
+    <header>
+        <a href = "{% url 'bandas:index' %}"><button class="button-menu">Menu</button></a>
+    </header>
+<body class = "banda">
+
+</body>
+    <h3>{{ banda }}</h3>
+
+    {% if banda.foto %}
+        <p id = "foto"> <img src = '{{banda.foto.url}}' style="max-width: 10%;"></p>
+    {% else %}
+        <p>Nenhuma foto foi inserida</p>
+    {% endif %}
+
+    <p> Nacionalidade: {{ banda.nacionalidade }}</p>
+    <p> Ano de criação: {{ banda.ano }}</p>
+    <p> Género: {{ banda.genero }}</p>
+
+    <h3>Álbuns</h3>
+
+    {% for album in albuns %}
+        <li>
+            <a href="{% url 'bandas:album' album.id %}">{{ album.titulo }}, {{ album.ano_lancamento }}</a>
+            {% if user.is_authenticated and perms.bandas.change_album %}
+            <a href ="{% url 'bandas:editarAlbum' album.id %}"><button class="button-edit">Editar</button></a>
+            {% endif %}
+        </li>
+    {% endfor %}
+    {% if user.is_authenticated and perms.bandas.create_album %}
+            <a href="{% url 'bandas:novoAlbum' banda.id %}"><button class="button-edit">Novo Album</button></a>
+    {% endif %}
+{% endblock %}

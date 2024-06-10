@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Seleção de Cidade</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'meteo/estilos.css' %}">
+</head>
+<body>
+    <h1>Tempo hoje para Lisboa</h1>
+
+    <a href="{% url 'meteo:tempo_hoje_lisboa' %}"><p><button style="background-color: blue; color: white; width: 200px; height: 50px;">Ver Previsão</button>
+</p></a>
+
+    <h1>Selecione uma Cidade (Previsão de 1 dia)</h1>
+    <form id="cityForm" method="get">
+        <select name="city_id" id="city_id" style="width: 100%;">
+            <option value="">Selecione uma cidade</option>
+            {% for city in cities %}
+            <option value="{{ city.globalIdLocal }}">{{ city.local }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Ver Previsão</button>
+    </form>
+
+    <h1>Selecione uma Cidade (Previsão de 5 dias)</h1>
+    <form id="city5" method="get">
+        <select name="city_id" id="city_id_5" style="width: 100%;">
+            <option value="">Selecione uma cidade</option>
+            {% for city in cities %}
+            <option value="{{ city.globalIdLocal }}">{{ city.local }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Ver Previsão</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#cityForm').on('submit', function(event) {
+                event.preventDefault();
+                const cityId = $('#city_id').val();
+                if (cityId) {
+                    const url = `{% url 'meteo:tempo_hoje_cidade' city_id=0 %}`.replace('/0/', `/${cityId}/`);
+                    window.location.href = url;
+                } else {
+                    alert('Por favor, selecione uma cidade.');
+                }
+            });
+
+            $('#city5').on('submit', function(event) {
+                event.preventDefault();
+                const cityId = $('#city_id_5').val();
+                if (cityId) {
+                    const url = `{% url 'meteo:previsao_cinco_dias' city_id=0 %}`.replace('/0/', `/${cityId}/`);
+                    window.location.href = url;
+                } else {
+                    alert('Por favor, selecione uma cidade.');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+{% load static %}
+<title>{{disciplina.nome}}</title>
+<h1><header>{{disciplina.nome}}</header></h1>
+<link rel="stylesheet" href="{% static 'cursos/estilos.css' %}">
+{% block content %}
+
+    <style>
+            body {
+                background: url('https://thetangerinebowl.com/wp-content/uploads/2014/08/light-wood-BK1.png');
+                color:black;
+                font-size:30px;
+            }
+        </style>
+
+    <header>
+        <a href = "{% url 'cursos:index' %}"><button class="button-menu">Menu</button></a>
+    </header>
+
+    <div class = "disciplina">
+    <h3>Detalhes de {{disciplina.nome}} </h3>
+
+    <p>Ano: {{disciplina.ano}}º</p>
+    <p>Semestre: {{disciplina.semestre}}</p>
+    <p>Ects: {{disciplina.ects}}</p>
+    <p>Curricular Unit Readable Code: {{disciplina.curricularUnitReadableCode}}</p>
+    <p>Area Ciêntifica: {{disciplina.area_cientifica.nome}}</p>
+    </div>
+{% endblock %}

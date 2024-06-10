@@ -1,0 +1,59 @@
+[
+    {
+        "nome": "Nirvana",
+        "genero": "Grunge",
+        "nacionalidade": "Estados Unidos",
+        "ano_criacao": 1987
+    },
+    {
+        "nome": "Radiohead",
+        "genero": "Rock Alternativo",
+        "nacionalidade": "Reino Unido",
+        "ano_criacao": 1985
+    },
+    {
+        "nome": "Pink Floyd",
+        "genero": "Rock Progressivo",
+        "nacionalidade": "Reino Unido",
+        "ano_criacao": 1965
+    },
+    {
+        "nome": "System of a Down",
+        "genero": "Metal Alternativo",
+        "nacionalidade": "Estados Unidos",
+        "ano_criacao": 1994
+    },
+    {
+        "nome": "Red Hot Chili Peppers",
+        "genero": "Funk Rock",
+        "nacionalidade": "Estados Unidos",
+        "ano_criacao": 1983
+    },
+    {
+        "nome": "The Offspring",
+        "genero": "Punk Rock",
+        "nacionalidade": "Estados Unidos",
+        "ano_criacao": 1984
+    },
+    {
+        "nome": "Pixies",
+        "genero": "Rock Alternativo",
+        "nacionalidade": "Estados Unidos",
+        "ano_criacao": 1986
+    },
+    {
+        "nome": "Alice in Chains",
+        "genero": "Grunge",
+        "nacionalidade": "Estados Unidos",
+        "ano_criacao": 1987
+    },
+    {
+        "nome": "Deftones",
+        "genero": "Metal Alternativo",
+        "nacionalidade": "Estados Unidos",
+        "ano_criacao": 1988
+    }
+]
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticação</title>
+    <style>
+        button {
+            padding: 0.5em 1em;
+            font-size: 1em;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <main>
+        <form action="{% url 'autenticacao:entrar' %}" method="post">
+            {% csrf_token %}
+            <input type="text" name="username" placeholder="Username..">
+            <input type="password" name="password" placeholder="Palavra-chave..">
+            <input type="submit" value="Login">
+        </form>
+
+        <a href="{% url 'autenticacao:registar' %}">
+            <button>Registar</button>
+        </a>
+    </main>
+
+    <footer>
+        <p>&copy; Universidade Lusófona 2024</p>
+    </footer>
+</body>
+</html>

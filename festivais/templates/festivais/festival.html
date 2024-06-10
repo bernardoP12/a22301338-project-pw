@@ -1,0 +1,33 @@
+
+
+<html>
+    <head>
+        <title>Festivais</title>
+        <style>
+            body {
+                background: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Festivais</h1>
+        </header>
+
+        <main>
+
+    {% for festival in festivais %}
+
+        <p>{{festival.localizacao}} </p>
+        <a href = "{% url 'festivais:detalhes' festival.id %}">{{festival.nomeFestival}}</a>,{{festival.banda}}
+
+{% endfor %}
+
+
+        </main>
+
+        <footer>
+            <p>2024</p>
+        </footer>
+    </body>
+</html>

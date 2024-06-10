@@ -1,0 +1,20 @@
+<title>{{disciplina.nome}}</title>
+<h1><header>Festivais</header></h1>
+
+{% block content %}
+
+
+
+
+    <h3>{{festival.nomeFestival}},{{festival.localizacao}}</h3>
+
+    Bandas:
+    <p>{{festival.banda}}</p>
+
+
+    <img src = '{{festival.capa.url}}' width = "400px">
+
+<footer>
+        <a href = "{% url 'festivais:festival' %}"><button>Lista de Festivais</button></a>
+    </footer>
+{% endblock %}

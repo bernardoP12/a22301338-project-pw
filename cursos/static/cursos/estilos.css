@@ -1,0 +1,44 @@
+div.container {
+    display: grid;
+    grid-template-areas:
+        "1ano 2ano 3ano";
+        font-size:30px;
+}
+.1ano {
+    grid-area: 1ano;
+    text-align:center;
+    font-size:40px;
+}
+.2ano {
+    grid-area: 2ano;
+    text-align:center;
+    font-size:40px;
+}
+.3ano {
+    grid-area: 3ano;
+    text-align:center;
+    font-size:40px;
+}
+.button-menu:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 8px;
+}
+
+/* Mudança do ícone ao passar o rato no botão de menu */
+
+/* Estilo do botão de menu */
+.button-menu {
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Estilo do botão de menu quando hover */
+.button-menu:hover {
+  background-color: #0056b3;
+}

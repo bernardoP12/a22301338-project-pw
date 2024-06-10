@@ -1,0 +1,43 @@
+{% extends 'portfolio/layout.html' %}
+
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+    color: white;
+    background: url("/media/portfolio/background.jpg") no-repeat center center/cover;
+    position: relative; /* Necessário para posicionamento absoluto do dropdown */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    }
+    i{
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static 'portfolio/estilos.css' %}">
+</head>
+<body>
+
+
+    <i id="dark-mode" class="fas fa-moon fa-10x" data-mode="OFF"></i>
+    <div id="contador" class ="contador"></div>
+    <script src="{% static 'portfolio/scripts.js' %}"></script>
+
+    <h1 class="header1">Welcome to My Portfolio!</h1>
+    <p class = "p">Here I will show you a little bit about myself</p>
+    <p class = "p2">and my works</p>
+    <h2 class="header2">Don´t know the time? Here it is</h2>
+
+</body>
+</html>
+{% endblock %}

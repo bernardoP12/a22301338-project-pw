@@ -1,0 +1,31 @@
+{% extends 'bandas/layout.html' %}
+
+{% block content %}
+    <header>
+        <a href="{% url 'bandas:index' %}"><button class="button-menu">Menu</button></a>
+    </header>
+
+<body class="album">
+    <h2>{{ album.titulo }}</h2>
+
+    {% if album.capa %}
+        <p><img src="{{ album.capa.url }}" style="max-width: 30%;"></p>
+    {% else %}
+        <p>Nenhuma foto inserida</p>
+    {% endif %}
+    <p>Ano de lançamento: {{ album.ano }}</p>
+
+    <h3>Músicas</h3>
+
+    {% for musica in musicas %}
+        <li>
+            <a href="{% url 'bandas:musica' musica.id %}">{{ musica.titulo }}, {{ musica.duracao }}</a>
+            {% if user.is_authenticated and perms.bandas.change_musica %}
+                <a href="{% url 'bandas:editarMusica' musica.id %}"><small><button class="button-edit">Editar</button></small></a>
+            {% endif %}
+        </li>
+    {% endfor %}
+    {% if user.is_authenticated and perms.bandas.create_musica %}
+        <a href="{% url 'bandas:novaMusica' album.id %}"><button class="button-edit">Nova Música</button></a>
+    {% endif %}
+{% endblock %}

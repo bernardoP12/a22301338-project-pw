@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Tempo em Lisboa</title>
+    <style>
+        body {
+            text-align:center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Previsão do Tempo para Hoje em {{ city }}</h1>
+    <p>Data: {{ date }}</p>
+    <p>Temperatura Mínima: {{ min_temp }}°C</p>
+    <p>Temperatura Máxima: {{ max_temp }}°C</p>
+    <p>Descrição do Tempo: {{ weather_desc }}</p>
+    <img src="{{ icon_url }}">
+</body>
+</html>

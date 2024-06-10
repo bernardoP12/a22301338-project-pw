@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'artigos/estilos.css' %}">
+        <title>Artigos</title>
+    </head>
+    <body>
+        <header>
+            <h1>Artigos</h1>
+        </header>
+
+        <main>
+
+            {% block content %}
+            {% endblock %}
+
+        </main>
+
+        <footer>
+            <p>Universidade Lusofona</p>
+        </footer>
+    </body>
+</html>

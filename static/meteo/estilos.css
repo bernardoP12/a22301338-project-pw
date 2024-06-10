@@ -1,0 +1,65 @@
+body {
+    font-size:30px;
+    margin: 20px;
+}
+h1 {
+    color: #333;
+}
+form {
+    margin-top: 20px;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#city_id {
+    width: 60%;
+    height: 60px; /* Ajusta a altura do campo de seleção */
+    font-size: 16px;
+}
+#city_id_5 {
+    width: 60%;
+    height: 60px; /* Ajusta a altura do campo de seleção */
+    font-size: 16px;
+}
+
+.black {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Faz com que o corpo ocupe 100% da altura da tela */
+    margin: 0; /* Remove margens padrão do corpo */
+    background: blue; /* Cor de fundo do corpo */
+}
+
+.weather-card {
+    background-color: #f0f0f0;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px; /* Adiciona margem superior */
+    margin-bottom: 20px; /* Adiciona margem inferior */
+}
+
+
+.weather-card p {
+    margin: 5px;
+    font-size: 30px;
+}
+
+.weather-card img {
+    width: 200px;
+    height: 200px;
+}
